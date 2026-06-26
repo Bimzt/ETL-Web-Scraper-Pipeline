@@ -44,7 +44,7 @@ Sebelum menjalankan proyek ini, pastikan sistem kamu sudah terinstal:
 
 **1. Clone Repositori**
 ```bash
-git clone [https://github.com/Bimzt/ETL-Web-Scraper-Pipeline.git](https://github.com/Bimzt/ETL-Web-Scraper-Pipeline.git)
+git clone https://github.com/Bimzt/ETL-Web-Scraper-Pipeline.git
 cd ETL-Web-Scraper-Pipeline
 ```
 
@@ -61,7 +61,7 @@ Buka file main.py dan sesuaikan kredensial di bagian Load dengan pengaturan mili
 DB_URL = "postgresql://username:password@localhost:5432/ETL Sederhana" 
 
 # Sesuaikan dengan ID Spreadsheet Google kamu
-SPREADSHEET_ID = "YOURSPREADSHEET_ID"
+SPREADSHEET_ID = "YOURSPREADSHEETID"
 ```
 (Catatan: Jangan lupa untuk meletakkan file kredensial google-sheets-api.json di dalam folder utama proyek ini).
 
