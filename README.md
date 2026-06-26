@@ -61,7 +61,7 @@ Buka file main.py dan sesuaikan kredensial di bagian Load dengan pengaturan mili
 DB_URL = "postgresql://username:password@localhost:5432/ETL Sederhana" 
 
 # Sesuaikan dengan ID Spreadsheet Google kamu
-SPREADSHEET_ID = "10oKpAbNGXqtW8TAetZRkd367QLQuI7Cgeg0F6M90Fg8"
+SPREADSHEET_ID = "YOURSPREADSHEET_ID"
 ```
 (Catatan: Jangan lupa untuk meletakkan file kredensial google-sheets-api.json di dalam folder utama proyek ini).
 
