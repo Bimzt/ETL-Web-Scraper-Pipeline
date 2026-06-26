@@ -31,7 +31,7 @@ def main():
 
     DB_URL = "postgresql://postgres:******/@localhost:5432/ETL Sederhana" 
     load_to_postgres(clean_data, DB_URL, table_name='products')
-    SPREADSHEET_ID = "10oKpAbNGXqtW8TAetZRkd367QLQuI7Cgeg0F6M90Fg8"
+    SPREADSHEET_ID = "yourspreadsheetsid"
     RANGE_NAME = "Sheet1!A1"
     CREDS_FILE = "google-sheets-api.json" 
     load_to_gsheets(clean_data, SPREADSHEET_ID, RANGE_NAME, CREDS_FILE)
